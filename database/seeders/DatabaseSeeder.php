@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Dialog;
+use App\Models\Message;
 use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
