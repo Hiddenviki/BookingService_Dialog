@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Message::factory(5)->create();
-        Dialog::factory(5)->create();
+//        Message::factory(5)->create();
+//        Dialog::factory(5)->create();
     }
 }
