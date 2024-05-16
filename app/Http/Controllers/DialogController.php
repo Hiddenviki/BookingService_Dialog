@@ -6,7 +6,7 @@ use App\Http\Requests\DialogRequest;
 use App\Services\DialogService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-
+use App\Models\Dialog;
 class DialogController extends BaseController
 {
     public function __construct(private readonly DialogService $dialogService) {}
